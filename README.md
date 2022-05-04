@@ -10,7 +10,7 @@
   <strong>This is a sample app for the DigitalOcean article: "How to Test a React App with Jest and React Testing Library"</strong>
     <br />
     <br />
-    <a href="https://doggy-directory.netlify.app/">View Demo 🏗️</a>
+    <a href="https://doggy-directory-app-6bm2f.ondigitalocean.app/">View Demo 🏗️</a>
   </p>
 </p>
 
