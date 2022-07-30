@@ -7,7 +7,7 @@
   </a>
 
   <p align="center">
-  <strong>This is a sample app for the DigitalOcean article: "How to Test a React App with Jest and React Testing Library"</strong>
+  <strong> This is a sample app for the DigitalOcean article: <a href="https://www.digitalocean.com/community/tutorials/how-to-test-a-react-app-with-jest-and-react-testing-library">  "How to Test a React App with Jest and React Testing Library" </a> </strong>
     <br />
     <br />
     <a href="https://doggy-directory-app-6bm2f.ondigitalocean.app/">View Demo 🏗️</a>
