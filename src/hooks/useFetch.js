@@ -30,10 +30,6 @@ const useFetch = (initialUrl, options) => {
 
   }, [url, options]);
 
-  /* TODO: Need to return back some kind of fetcher function so that we can
-  *        fetch dynamically (on button click, etc) but not throw the
-  *        conditional react hooks error
-  * */
   return [{ data, loading, error }, setUrl];
 };
 
