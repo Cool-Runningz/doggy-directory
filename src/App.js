@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import placeholderImg from "./images/undraw_relaxing_walk.svg";
 
+//NOTE: This file is intentionally riddled with a11y issues for auditing purposes
+
 function App() {
   const [breeds, setBreeds] = useState([]);
   const [selectedBreed, setSelectedBreed] = useState("");
@@ -47,7 +49,7 @@ function App() {
         <div className="d-flex justify-content-center">
           <select
             className="form-select w-25"
-            aria-label="Select a breed of dog to display results"
+            /*aria-label="Select a breed of dog to display results"*/
             value={selectedBreed}
             onChange={(event) => setSelectedBreed(event.target.value)}
           >
@@ -79,7 +81,7 @@ function App() {
             <img
               src={placeholderImg}
               className="mx-auto d-block mt-4 w-50"
-              alt=""
+             /* alt=""*/
             />
           )}
           {isLoading && (
@@ -99,7 +101,7 @@ function App() {
                 key={`${index}-${selectedBreed}`}
                 src={imgSrc}
                 className="img-thumbnail w-25"
-                alt={`${selectedBreed} ${index + 1} of ${dogImages.length}`}
+               /* alt={`${selectedBreed} ${index + 1} of ${dogImages.length}`}*/
               />
             ))}
         </div>
