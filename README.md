@@ -5,14 +5,12 @@
   <a href="https://github.com/Cool-Runningz/doggy-directory">
     <img src="public/logo192.png" alt="Logo" width="80" height="80">
   </a>
-
-  <p align="center">
-  <strong> This is a sample app for the DigitalOcean article: <a href="https://www.digitalocean.com/community/tutorials/how-to-test-a-react-app-with-jest-and-react-testing-library">  "How to Test a React App with Jest and React Testing Library" </a> </strong>
-    <br />
-    <br />
-    <a href="https://doggy-directory-app-6bm2f.ondigitalocean.app/">View Demo 🏗️</a>
-  </p>
 </p>
+
+<br />
+
+> ### NOTE: This branch is intentionally riddled with a11y issues for auditing purposes
+
 
 # Getting Started with Create React App
 
